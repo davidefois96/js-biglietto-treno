@@ -5,7 +5,7 @@ JS-BIGLIETTO-TRENO
 
 1. Aggiungo una costante : numeroChilometri.
 
-2. Aggiungo una costante : etaPasseggero.
+2. Aggiungo una costante : etàPasseggero.
 
 3. Aggiungo una costante : prezzoAlChilometro.
 

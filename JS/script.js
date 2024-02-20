@@ -11,13 +11,13 @@ console.log(prezzoAlChilometro);
 
 
 if(etàPasseggero < 18){
-  prezzoTotale= (numeroChilometri*prezzoAlChilometro*0.8).toFixed(2)
+  prezzoTotale= (numeroChilometri*prezzoAlChilometro*0.8)
 }else if(etàPasseggero > 65){
-  prezzoTotale= (numeroChilometri*prezzoAlChilometro*0.6).toFixed(2)
+  prezzoTotale= (numeroChilometri*prezzoAlChilometro*0.6)
 }else {
-  prezzoTotale= (numeroChilometri*prezzoAlChilometro).toFixed(2)
+  prezzoTotale= (numeroChilometri*prezzoAlChilometro)
 }
 
 console.log(prezzoTotale);
 
-document.getElementById('output').innerHTML +=  prezzoTotale + '€';
+document.getElementById('output').innerHTML +=  prezzoTotale.toFixed(2) + '€';
